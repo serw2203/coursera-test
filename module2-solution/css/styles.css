@@ -1,3 +1,72 @@
-h2 {
-    color: red;
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+.container {
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 10px;
+    position: relative;
+    float: left;
+}
+
+.capt {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.desc {
+    background-color: azure;
+    padding: 2em 5px 5px 5px;
+    border: 1px solid black;
+}
+
+.row {
+    width: 100%;
+    padding: 0px 10px 10px 0px;
+    overflow: auto;
+    border: 1px dotted gainsboro;
+}
+
+#item7 {
+    background-color: deepskyblue;
+}
+
+#item8 {
+    background-color: aquamarine;
+}
+
+#item9 {
+    background-color: coral;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+    .p-lg-4 {
+        height: 220px;
+        overflow: hidden;
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .p-md-6 {
+        height: 220px;
+        overflow: hidden;
+    }
+}
+
