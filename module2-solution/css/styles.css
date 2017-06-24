@@ -1,5 +1,6 @@
 /********** Base styles **********/
 * {
+    font-family: Comic Sans, Comic Sans MS, cursive;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -23,7 +24,7 @@
 
 .desc {
     background-color: azure;
-    padding: 2em 5px 5px 5px;
+    padding: 2.1em 5px 5px 5px;
     border: 1px solid black;
 }
 
