@@ -1,5 +1,6 @@
 {
   "scripts": {
-    "m2s": "browser-sync start --server \"module2-solution\" --port 9090 --files \"module2-solution\""
+    "m2s": "browser-sync start --server \"module2-solution\" --port 9090 --files \"module2-solution\"",
+	"m3s": "browser-sync start --server \"module3-solution\" --port 9090 --files \"module3-solution\""
   }
 }

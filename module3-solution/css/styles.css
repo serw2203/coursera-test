@@ -1,0 +1,71 @@
+body {
+    font-size: 16px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+#header-nav {
+    background-color: deepskyblue;
+    border-radius: 0;
+    border: 0;
+    min-width: 230px;
+    margin-bottom: 0px;
+}
+
+#header-nav > .container {
+    margin-left: 0px;
+}
+
+#nav-list {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#nav-list a {
+    color: white;
+    text-align: center;
+    background: gray;
+}
+
+#nav-list a:hover {
+    background: black;
+}
+
+.navbar-brand h1 {
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px #222;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+#caption {
+    font-size: 1.2em;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 15px;
+}
+
+#title {
+    font-size: 1.1em;
+    text-transform: capitalize;
+}
+
+#main-content {
+    width: 100%;
+    height: 1000px;
+    margin-left: 15px;
+}
+
+#item1 {
+    border: 1px solid black;
+    background-color: gray;
+}
