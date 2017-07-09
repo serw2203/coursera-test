@@ -8,16 +8,16 @@ body {
     border-radius: 0;
     border: 0;
     min-width: 230px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 #header-nav > .container {
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 #nav-list {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #nav-list a {
