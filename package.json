@@ -1,7 +1,8 @@
 {
   "scripts": {
     "m2s": "browser-sync start --server \"module2-solution\" --port 9090 --files \"module2-solution\"",
-	"m3s": "browser-sync start --server \"module3-solution\" --port 9090 --files \"module3-solution\"",
-    "m4s": "browser-sync start --server \"module4-solution\" --port 9090 --files \"module4-solution\""
+    "m3s": "browser-sync start --server \"module3-solution\" --port 9090 --files \"module3-solution\"",
+    "m4s": "browser-sync start --server \"module4-solution\" --port 9090 --files \"module4-solution\"",
+    "m5s": "browser-sync start --server \"module5-solution\" --port 9090 --files \"module5-solution\""	
   }
 }
